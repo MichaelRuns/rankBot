@@ -35,7 +35,6 @@ client.on('messageCreate', async (msg) => {
                     `https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/${summonerName}?api_key=${APIKEY}`
                 );
                 const summonerID = response.data.id;
-                msg.channel.send("Summoner ID: " + summonerID);
                 console.log(`https://na1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summonerID}?api_key=${APIKEY}`);
                 const response2 = await axios.get(
                     `https://na1.api.riotgames.com/lol/league/v4/entries/by-summoner/${summonerID}?api_key=${APIKEY}`
