@@ -1,0 +1,30 @@
+{
+  "name": "rankbot",
+  "version": "1.0.0",
+  "description": "A discord bot for querying the rank changes of leauge playing friends",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelRuns/rankBot.git"
+  },
+  "keywords": [
+    "discord",
+    "league",
+    "ranked",
+    "promote",
+    "demote"
+  ],
+  "author": "Michael J Vernau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelRuns/rankBot/issues"
+  },
+  "homepage": "https://github.com/MichaelRuns/rankBot#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.11.0"
+  }
+}
